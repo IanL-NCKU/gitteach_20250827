@@ -71,10 +71,10 @@ def find_main_frequencies(signal_data, sampling_rate, num_peaks=3):
 
 def main():
     # Parameters
-    duration = 2.0  # seconds
+    duration = 4.0  # seconds
     sampling_rate = 1000  # Hz
-    noise_level = 0.3
-    cutoff_freq = 30  # Hz for Butterworth filter
+    noise_level = 0.6
+    cutoff_freq = 60  # Hz for Butterworth filter
     
     # Step 1: Generate periodic signal with combination of sine waves
     print("Step 1: Generating periodic signal...")
